@@ -54,7 +54,7 @@ namespace Entidades
             bool auxiliar = true;
             for (int i = 0; i < binario.Length; i++)
             {
-                if(!binario.Contains('1') || !binario.Contains('0'))
+                if(!binario.Contains('1') || !binario.Contains('0') || binario.Length <3)
                 {
                     auxiliar = false;
                     break;

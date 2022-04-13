@@ -39,6 +39,7 @@ namespace MiCalculadora
             txtNumero2.Text = string.Empty;
             cmbOperador.Text = string.Empty;
             lblResultado.Text = string.Empty;
+            cmbOperador.SelectedIndex = cmbOperador.FindString(" ");
             lstOperaciones.Text = string.Empty;
         }
 

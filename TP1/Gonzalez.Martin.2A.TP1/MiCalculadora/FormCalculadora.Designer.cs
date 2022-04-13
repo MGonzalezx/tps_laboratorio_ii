@@ -103,12 +103,11 @@ namespace MiCalculadora
             // 
             // lblResultado
             // 
-            this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblResultado.Location = new System.Drawing.Point(195, 11);
+            this.lblResultado.Location = new System.Drawing.Point(2, 11);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblResultado.Size = new System.Drawing.Size(23, 25);
+            this.lblResultado.Size = new System.Drawing.Size(322, 25);
             this.lblResultado.TabIndex = 6;
             this.lblResultado.Text = "0";
             // 
