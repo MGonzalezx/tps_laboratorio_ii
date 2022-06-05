@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Entidades/1.0.0": {
+      "type": "project",
+      "path": "../TP3/Entidades.csproj",
+      "msbuildProject": "../TP3/Entidades.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "Entidades >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\RocioGonzalez\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\RocioGonzalez\\Desktop\\Porg y Lab 2_2022\\tps_laboratorio_ii\\TP3\\Gonzalez.Martin.2A.TPFinal\\MainEmpresa\\MainEmpresa.csproj",
+      "projectName": "MainEmpresa",
+      "projectPath": "C:\\Users\\RocioGonzalez\\Desktop\\Porg y Lab 2_2022\\tps_laboratorio_ii\\TP3\\Gonzalez.Martin.2A.TPFinal\\MainEmpresa\\MainEmpresa.csproj",
+      "packagesPath": "C:\\Users\\RocioGonzalez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RocioGonzalez\\Desktop\\Porg y Lab 2_2022\\tps_laboratorio_ii\\TP3\\Gonzalez.Martin.2A.TPFinal\\MainEmpresa\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\RocioGonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\RocioGonzalez\\Desktop\\Porg y Lab 2_2022\\tps_laboratorio_ii\\TP3\\Gonzalez.Martin.2A.TPFinal\\TP3\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\RocioGonzalez\\Desktop\\Porg y Lab 2_2022\\tps_laboratorio_ii\\TP3\\Gonzalez.Martin.2A.TPFinal\\TP3\\Entidades.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
