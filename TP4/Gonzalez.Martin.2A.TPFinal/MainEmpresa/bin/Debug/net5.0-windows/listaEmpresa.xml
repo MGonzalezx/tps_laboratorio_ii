@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cliente>
+    <Nombre>Juan</Nombre>
+    <Apellido>Perez</Apellido>
+    <NumeroAfiliado>1</NumeroAfiliado>
+    <Requerimiento>Pastillas</Requerimiento>
+    <Estado>Ingresado</Estado>
+  </Cliente>
+  <Cliente>
+    <Nombre>Leticia</Nombre>
+    <Apellido>Rodriguez</Apellido>
+    <NumeroAfiliado>2</NumeroAfiliado>
+    <Requerimiento>Insulina</Requerimiento>
+    <Estado>Ingresado</Estado>
+  </Cliente>
+  <Cliente>
+    <Nombre>Gustavi</Nombre>
+    <Apellido>Tabares</Apellido>
+    <NumeroAfiliado>5</NumeroAfiliado>
+    <Requerimiento>Cremas</Requerimiento>
+    <Estado>Ingresado</Estado>
+  </Cliente>
+</ArrayOfCliente>
